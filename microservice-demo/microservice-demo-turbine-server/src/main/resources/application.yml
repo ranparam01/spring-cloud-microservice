@@ -15,5 +15,3 @@ turbine:
   aggregator:
     clusterConfig: ORDER
   appConfig: order
-
-  

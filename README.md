@@ -49,8 +49,9 @@ The servers for the infrastruture are pretty simple thanks to Spring Cloud:
 - microservice-demo-eureka is the Eureka server for service discovery.
 - microservice-demo-zuul is the Zuul server. It distributes the requests to the three microservices.
 - microservice-demo-turbine can be used to consolidate the Hystrix metrics and has a Hystrix dashboard.
+- microservice-demo-boot-admin-server Spring Boot Admin is a application to manage and monitor Spring Boot Applications
 
-The microservices are: 
+The microservices are:
 - microservice-demo-catalog is the application to take care of items.
 - microserivce-demo-customer is responsible for customers.
 - microservice-demo-order does order processing. It uses microservice-demo-catalog and microservice-demo-customer. Ribbon is used for load balancing and Hystrix for resilience.
