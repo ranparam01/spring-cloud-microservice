@@ -1,0 +1,16 @@
+server:
+  port: 8484
+
+spring:
+  boot:
+    admin:
+      url:http://localhost:8484
+
+management:
+  security:
+    enabled: false
+    
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: DEBUG

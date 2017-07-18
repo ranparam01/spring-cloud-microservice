@@ -28,5 +28,10 @@ services:
      - eureka
     ports:
       - "8989:8989"
-
+  admin:
+    build: ../microservice-demo/microservice-demo-boot-admin-server
+    links:
+     - eureka
+    ports:
+      - "8484:8484"
 

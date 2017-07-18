@@ -53,3 +53,4 @@ The following ports will be used on the docker host :
 - 8080 for the web application
 - 8761 for Eureka
 - 8989 for the Turbine server
+- 8484 for the boot admin server
