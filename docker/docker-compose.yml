@@ -34,4 +34,9 @@ services:
      - eureka
     ports:
       - "8484:8484"
-
+  zipkin:
+    build: ../microservice-demo/microservice-demo-zipkin-server
+    links:
+     - eureka
+    ports:
+      - "9411:9411"

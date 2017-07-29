@@ -1,0 +1,19 @@
+server:
+  port: 9411
+
+spring:
+ application:
+   name: zipkin
+
+eureka:
+ client:
+  registryFetchIntervalSeconds: 5
+
+management:
+  security:
+    enabled: false
+    
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: DEBUG
